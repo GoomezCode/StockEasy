@@ -1,0 +1,208 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', sans-serif">
+  <rect width="1280" height="800" fill="#F4F7FA"/>
+
+  <!-- Sidebar -->
+  <rect width="220" height="800" fill="#1B5E88"/>
+  <text x="20" y="34" fill="#FFFFFF" font-size="18" font-weight="600">StockEasy</text>
+  <text x="20" y="52" fill="rgba(255,255,255,0.5)" font-size="11">Gestão de comércio</text>
+  <line x1="0" y1="64" x2="220" y2="64" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- Dashboard -->
+  <text x="40" y="100" fill="rgba(255,255,255,0.65)" font-size="13">Dashboard</text>
+  <!-- Produtos ACTIVE -->
+  <rect x="0" y="113" width="220" height="38" fill="rgba(255,255,255,0.15)"/>
+  <rect x="0" y="113" width="3" height="38" fill="#5AB0E0"/>
+  <text x="40" y="137" fill="#FFFFFF" font-size="13">Produtos</text>
+  <!-- Estoque -->
+  <text x="40" y="175" fill="rgba(255,255,255,0.65)" font-size="13">Estoque</text>
+  <!-- Vendas -->
+  <text x="40" y="213" fill="rgba(255,255,255,0.65)" font-size="13">Vendas</text>
+  <!-- Fornecedores -->
+  <text x="40" y="251" fill="rgba(255,255,255,0.65)" font-size="13">Fornecedores</text>
+  <!-- Relatórios -->
+  <text x="40" y="289" fill="rgba(255,255,255,0.65)" font-size="13">Relatórios</text>
+
+  <line x1="0" y1="760" x2="220" y2="760" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="20" y="780" fill="rgba(255,255,255,0.4)" font-size="11">v1.0 — SENAC Franca</text>
+
+  <!-- Topbar -->
+  <rect x="220" y="0" width="1060" height="56" fill="#FFFFFF"/>
+  <line x1="220" y1="56" x2="1280" y2="56" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="240" y="34" fill="#1A1A2E" font-size="15" font-weight="500">Produtos</text>
+  <text x="1160" y="34" fill="#5A6A7A" font-size="13">Olá, Admin</text>
+  <circle cx="1252" cy="28" r="16" fill="#2E88C4"/>
+  <text x="1248" y="32" fill="white" font-size="11" font-weight="500">AD</text>
+
+  <!-- Toolbar -->
+  <rect x="240" y="72" width="960" height="48" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <!-- Search box -->
+  <rect x="256" y="84" width="280" height="28" rx="6" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="272" y="102" fill="#5A6A7A" font-size="12">🔍  Buscar produto...</text>
+  <!-- Filter -->
+  <rect x="548" y="84" width="140" height="28" rx="6" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="564" y="102" fill="#5A6A7A" font-size="12">Categoria  ▾</text>
+  <!-- Filter 2 -->
+  <rect x="700" y="84" width="140" height="28" rx="6" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="716" y="102" fill="#5A6A7A" font-size="12">Fornecedor  ▾</text>
+  <!-- Button -->
+  <rect x="1060" y="84" width="124" height="28" rx="6" fill="#2E88C4"/>
+  <text x="1088" y="102" fill="white" font-size="12" font-weight="500">+ Novo Produto</text>
+
+  <!-- Table card -->
+  <rect x="240" y="132" width="960" height="568" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="240" y="132" width="960" height="36" rx="0" fill="#EAF4FB"/>
+  <rect x="240" y="132" width="960" height="36" rx="8" fill="#EAF4FB"/>
+  <rect x="240" y="150" width="960" height="18" fill="#EAF4FB"/>
+  <!-- Checkbox -->
+  <rect x="260" y="142" width="14" height="14" rx="2" fill="none" stroke="#1B5E88" stroke-width="1.5"/>
+  <text x="288" y="154" fill="#1B5E88" font-size="11" font-weight="600">Código</text>
+  <text x="380" y="154" fill="#1B5E88" font-size="11" font-weight="600">Nome</text>
+  <text x="580" y="154" fill="#1B5E88" font-size="11" font-weight="600">Categoria</text>
+  <text x="730" y="154" fill="#1B5E88" font-size="11" font-weight="600">Preço</text>
+  <text x="840" y="154" fill="#1B5E88" font-size="11" font-weight="600">Estoque</text>
+  <text x="960" y="154" fill="#1B5E88" font-size="11" font-weight="600">Status</text>
+  <text x="1100" y="154" fill="#1B5E88" font-size="11" font-weight="600">Ações</text>
+
+  <!-- Row helper -->
+  <!-- Row 1 -->
+  <line x1="240" y1="168" x2="1200" y2="168" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="178" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="190" fill="#5A6A7A" font-size="12">#001</text>
+  <text x="380" y="190" fill="#1A1A2E" font-size="12">Arroz 5kg</text>
+  <text x="580" y="190" fill="#5A6A7A" font-size="12">Alimentos</text>
+  <text x="730" y="190" fill="#1A1A2E" font-size="12">R$ 17,00</text>
+  <text x="840" y="190" fill="#1A1A2E" font-size="12">3</text>
+  <rect x="956" y="178" width="64" height="18" rx="9" fill="#FDF3E7"/>
+  <text x="966" y="191" fill="#A0520E" font-size="11">Baixo</text>
+  <!-- Action icons -->
+  <rect x="1096" y="178" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="191" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="178" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="191" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 2 -->
+  <line x1="240" y1="202" x2="1200" y2="202" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="212" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="224" fill="#5A6A7A" font-size="12">#002</text>
+  <text x="380" y="224" fill="#1A1A2E" font-size="12">Óleo de soja 900ml</text>
+  <text x="580" y="224" fill="#5A6A7A" font-size="12">Alimentos</text>
+  <text x="730" y="224" fill="#1A1A2E" font-size="12">R$ 9,00</text>
+  <text x="840" y="224" fill="#E74C3C" font-size="12">0</text>
+  <rect x="956" y="212" width="78" height="18" rx="9" fill="#FDECEA"/>
+  <text x="963" y="225" fill="#9B2320" font-size="11">Sem estoque</text>
+  <rect x="1096" y="212" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="225" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="212" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="225" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 3 -->
+  <line x1="240" y1="236" x2="1200" y2="236" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="246" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="258" fill="#5A6A7A" font-size="12">#003</text>
+  <text x="380" y="258" fill="#1A1A2E" font-size="12">Feijão carioca 1kg</text>
+  <text x="580" y="258" fill="#5A6A7A" font-size="12">Alimentos</text>
+  <text x="730" y="258" fill="#1A1A2E" font-size="12">R$ 8,50</text>
+  <text x="840" y="258" fill="#1A1A2E" font-size="12">4</text>
+  <rect x="956" y="246" width="64" height="18" rx="9" fill="#FDF3E7"/>
+  <text x="966" y="259" fill="#A0520E" font-size="11">Baixo</text>
+  <rect x="1096" y="246" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="259" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="246" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="259" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 4 -->
+  <line x1="240" y1="270" x2="1200" y2="270" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="280" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="292" fill="#5A6A7A" font-size="12">#004</text>
+  <text x="380" y="292" fill="#1A1A2E" font-size="12">Sabão em pó 1kg</text>
+  <text x="580" y="292" fill="#5A6A7A" font-size="12">Limpeza</text>
+  <text x="730" y="292" fill="#1A1A2E" font-size="12">R$ 18,90</text>
+  <text x="840" y="292" fill="#1A1A2E" font-size="12">2</text>
+  <rect x="956" y="280" width="64" height="18" rx="9" fill="#FDF3E7"/>
+  <text x="966" y="293" fill="#A0520E" font-size="11">Baixo</text>
+  <rect x="1096" y="280" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="293" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="280" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="293" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 5 -->
+  <line x1="240" y1="304" x2="1200" y2="304" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="314" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="326" fill="#5A6A7A" font-size="12">#005</text>
+  <text x="380" y="326" fill="#1A1A2E" font-size="12">Açúcar refinado 1kg</text>
+  <text x="580" y="326" fill="#5A6A7A" font-size="12">Alimentos</text>
+  <text x="730" y="326" fill="#1A1A2E" font-size="12">R$ 4,80</text>
+  <text x="840" y="326" fill="#1A1A2E" font-size="12">42</text>
+  <rect x="956" y="314" width="70" height="18" rx="9" fill="#EBF7F1"/>
+  <text x="964" y="327" fill="#1B7A45" font-size="11">Em estoque</text>
+  <rect x="1096" y="314" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="327" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="314" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="327" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 6 -->
+  <line x1="240" y1="338" x2="1200" y2="338" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="348" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="360" fill="#5A6A7A" font-size="12">#006</text>
+  <text x="380" y="360" fill="#1A1A2E" font-size="12">Macarrão espaguete</text>
+  <text x="580" y="360" fill="#5A6A7A" font-size="12">Alimentos</text>
+  <text x="730" y="360" fill="#1A1A2E" font-size="12">R$ 3,50</text>
+  <text x="840" y="360" fill="#1A1A2E" font-size="12">28</text>
+  <rect x="956" y="348" width="70" height="18" rx="9" fill="#EBF7F1"/>
+  <text x="964" y="361" fill="#1B7A45" font-size="11">Em estoque</text>
+  <rect x="1096" y="348" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="361" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="348" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="361" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Row 7 -->
+  <line x1="240" y1="372" x2="1200" y2="372" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="382" width="14" height="14" rx="2" fill="none" stroke="#E2E8EF" stroke-width="1.5"/>
+  <text x="288" y="394" fill="#5A6A7A" font-size="12">#007</text>
+  <text x="380" y="394" fill="#1A1A2E" font-size="12">Detergente 500ml</text>
+  <text x="580" y="394" fill="#5A6A7A" font-size="12">Limpeza</text>
+  <text x="730" y="394" fill="#1A1A2E" font-size="12">R$ 2,90</text>
+  <text x="840" y="394" fill="#1A1A2E" font-size="12">55</text>
+  <rect x="956" y="382" width="70" height="18" rx="9" fill="#EBF7F1"/>
+  <text x="964" y="395" fill="#1B7A45" font-size="11">Em estoque</text>
+  <rect x="1096" y="382" width="24" height="18" rx="4" fill="#EAF4FB"/>
+  <text x="1101" y="395" fill="#2E88C4" font-size="11">✎</text>
+  <rect x="1126" y="382" width="24" height="18" rx="4" fill="#FDECEA"/>
+  <text x="1131" y="395" fill="#E74C3C" font-size="11">✕</text>
+
+  <!-- Repeat rows as placeholders -->
+  <line x1="240" y1="406" x2="1200" y2="406" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="416" width="280" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="560" y="416" width="140" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="720" y="416" width="80" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="820" y="416" width="40" height="14" rx="3" fill="#F4F7FA"/>
+
+  <line x1="240" y1="440" x2="1200" y2="440" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="450" width="220" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="560" y="450" width="120" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="720" y="450" width="80" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="820" y="450" width="40" height="14" rx="3" fill="#F4F7FA"/>
+
+  <line x1="240" y1="474" x2="1200" y2="474" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="260" y="484" width="260" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="560" y="484" width="100" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="720" y="484" width="80" height="14" rx="3" fill="#F4F7FA"/>
+  <rect x="820" y="484" width="40" height="14" rx="3" fill="#F4F7FA"/>
+
+  <!-- Pagination -->
+  <text x="260" y="684" fill="#5A6A7A" font-size="12">Mostrando 1–10 de 148 produtos</text>
+  <rect x="1020" y="670" width="30" height="26" rx="4" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="1030" y="687" fill="#5A6A7A" font-size="12">‹</text>
+  <rect x="1056" y="670" width="30" height="26" rx="4" fill="#2E88C4"/>
+  <text x="1066" y="687" fill="white" font-size="12">1</text>
+  <rect x="1092" y="670" width="30" height="26" rx="4" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="1101" y="687" fill="#5A6A7A" font-size="12">2</text>
+  <rect x="1128" y="670" width="30" height="26" rx="4" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="1137" y="687" fill="#5A6A7A" font-size="12">3</text>
+  <rect x="1164" y="670" width="30" height="26" rx="4" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="1174" y="687" fill="#5A6A7A" font-size="12">›</text>
+
+  <text x="640" y="780" fill="#5A6A7A" font-size="11" text-anchor="middle">StockEasy · Wireframe · Produtos · SENAC Franca</text>
+</svg>
