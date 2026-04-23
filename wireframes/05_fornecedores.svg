@@ -1,0 +1,160 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', sans-serif">
+  <rect width="1280" height="800" fill="#F4F7FA"/>
+
+  <!-- Sidebar -->
+  <rect width="220" height="800" fill="#1B5E88"/>
+  <text x="20" y="34" fill="#FFFFFF" font-size="18" font-weight="600">StockEasy</text>
+  <text x="20" y="52" fill="rgba(255,255,255,0.5)" font-size="11">Gestão de comércio</text>
+  <line x1="0" y1="64" x2="220" y2="64" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="40" y="100" fill="rgba(255,255,255,0.65)" font-size="13">Dashboard</text>
+  <text x="40" y="137" fill="rgba(255,255,255,0.65)" font-size="13">Produtos</text>
+  <text x="40" y="174" fill="rgba(255,255,255,0.65)" font-size="13">Estoque</text>
+  <text x="40" y="211" fill="rgba(255,255,255,0.65)" font-size="13">Vendas</text>
+  <!-- Fornecedores ACTIVE -->
+  <rect x="0" y="224" width="220" height="38" fill="rgba(255,255,255,0.15)"/>
+  <rect x="0" y="224" width="3" height="38" fill="#5AB0E0"/>
+  <text x="40" y="248" fill="#FFFFFF" font-size="13">Fornecedores</text>
+  <text x="40" y="286" fill="rgba(255,255,255,0.65)" font-size="13">Relatórios</text>
+  <line x1="0" y1="760" x2="220" y2="760" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="20" y="780" fill="rgba(255,255,255,0.4)" font-size="11">v1.0 — SENAC Franca</text>
+
+  <!-- Topbar -->
+  <rect x="220" y="0" width="1060" height="56" fill="#FFFFFF"/>
+  <line x1="220" y1="56" x2="1280" y2="56" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="240" y="34" fill="#1A1A2E" font-size="15" font-weight="500">Fornecedores</text>
+  <text x="1160" y="34" fill="#5A6A7A" font-size="13">Olá, Admin</text>
+  <circle cx="1252" cy="28" r="16" fill="#2E88C4"/>
+  <text x="1248" y="32" fill="white" font-size="11" font-weight="500">AD</text>
+
+  <!-- Toolbar -->
+  <rect x="240" y="72" width="960" height="44" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <rect x="256" y="84" width="280" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="270" y="99" fill="#5A6A7A" font-size="12">🔍  Buscar fornecedor...</text>
+  <rect x="548" y="84" width="130" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="560" y="99" fill="#5A6A7A" font-size="12">Categoria  ▾</text>
+  <rect x="1072" y="84" width="112" height="22" rx="5" fill="#2E88C4"/>
+  <text x="1082" y="99" fill="white" font-size="11" font-weight="500">+ Novo Fornecedor</text>
+
+  <!-- Cards grid: 3 per row -->
+  <!-- Row 1 -->
+  <!-- Card 1 -->
+  <rect x="240" y="130" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <circle cx="278" cy="168" r="22" fill="#EAF4FB"/>
+  <text x="269" y="174" fill="#1B5E88" font-size="14" font-weight="600">DA</text>
+  <text x="312" y="162" fill="#1A1A2E" font-size="13" font-weight="600">Distribuidora Alfa</text>
+  <text x="312" y="178" fill="#5A6A7A" font-size="11">Alimentos e bebidas</text>
+  <rect x="312" y="184" width="54" height="16" rx="8" fill="#EBF7F1"/>
+  <text x="318" y="196" fill="#1B7A45" font-size="10">Ativo</text>
+  <line x1="256" y1="208" x2="524" y2="208" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="256" y="226" fill="#5A6A7A" font-size="11">📞 (16) 9 9999-0001</text>
+  <text x="256" y="242" fill="#5A6A7A" font-size="11">✉  contato@alfa.com.br</text>
+  <text x="256" y="258" fill="#5A6A7A" font-size="11">📦 14 produtos vinculados</text>
+  <rect x="388" y="248" width="52" height="22" rx="5" fill="#EAF4FB"/>
+  <text x="396" y="263" fill="#2E88C4" font-size="11">Ver ▸</text>
+  <rect x="448" y="248" width="52" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="455" y="263" fill="#5A6A7A" font-size="11">Editar</text>
+
+  <!-- Card 2 -->
+  <rect x="570" y="130" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <circle cx="608" cy="168" r="22" fill="#EAF4FB"/>
+  <text x="599" y="174" fill="#1B5E88" font-size="14" font-weight="600">CB</text>
+  <text x="642" y="162" fill="#1A1A2E" font-size="13" font-weight="600">Comercial Beta</text>
+  <text x="642" y="178" fill="#5A6A7A" font-size="11">Limpeza e higiene</text>
+  <rect x="642" y="184" width="54" height="16" rx="8" fill="#EBF7F1"/>
+  <text x="648" y="196" fill="#1B7A45" font-size="10">Ativo</text>
+  <line x1="586" y1="208" x2="854" y2="208" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="586" y="226" fill="#5A6A7A" font-size="11">📞 (16) 9 9999-0002</text>
+  <text x="586" y="242" fill="#5A6A7A" font-size="11">✉  beta@comercial.com</text>
+  <text x="586" y="258" fill="#5A6A7A" font-size="11">📦 8 produtos vinculados</text>
+  <rect x="718" y="248" width="52" height="22" rx="5" fill="#EAF4FB"/>
+  <text x="726" y="263" fill="#2E88C4" font-size="11">Ver ▸</text>
+  <rect x="778" y="248" width="52" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="785" y="263" fill="#5A6A7A" font-size="11">Editar</text>
+
+  <!-- Card 3 -->
+  <rect x="900" y="130" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <circle cx="938" cy="168" r="22" fill="#EAF4FB"/>
+  <text x="929" y="174" fill="#1B5E88" font-size="14" font-weight="600">FG</text>
+  <text x="972" y="162" fill="#1A1A2E" font-size="13" font-weight="600">Fornecedora Gama</text>
+  <text x="972" y="178" fill="#5A6A7A" font-size="11">Grãos e cereais</text>
+  <rect x="972" y="184" width="64" height="16" rx="8" fill="#FDF3E7"/>
+  <text x="978" y="196" fill="#A0520E" font-size="10">Inativo</text>
+  <line x1="916" y1="208" x2="1184" y2="208" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="916" y="226" fill="#5A6A7A" font-size="11">📞 (16) 9 9999-0003</text>
+  <text x="916" y="242" fill="#5A6A7A" font-size="11">✉  gama@fornec.com.br</text>
+  <text x="916" y="258" fill="#5A6A7A" font-size="11">📦 5 produtos vinculados</text>
+  <rect x="1048" y="248" width="52" height="22" rx="5" fill="#EAF4FB"/>
+  <text x="1056" y="263" fill="#2E88C4" font-size="11">Ver ▸</text>
+  <rect x="1108" y="248" width="52" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="1115" y="263" fill="#5A6A7A" font-size="11">Editar</text>
+
+  <!-- Row 2 -->
+  <!-- Card 4 -->
+  <rect x="240" y="308" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <circle cx="278" cy="346" r="22" fill="#EAF4FB"/>
+  <text x="269" y="352" fill="#1B5E88" font-size="14" font-weight="600">SD</text>
+  <text x="312" y="340" fill="#1A1A2E" font-size="13" font-weight="600">Supri Delta</text>
+  <text x="312" y="356" fill="#5A6A7A" font-size="11">Frios e laticínios</text>
+  <rect x="312" y="362" width="54" height="16" rx="8" fill="#EBF7F1"/>
+  <text x="318" y="374" fill="#1B7A45" font-size="10">Ativo</text>
+  <line x1="256" y1="386" x2="524" y2="386" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="256" y="404" fill="#5A6A7A" font-size="11">📞 (16) 9 9999-0004</text>
+  <text x="256" y="420" fill="#5A6A7A" font-size="11">✉  delta@supri.com.br</text>
+  <text x="256" y="436" fill="#5A6A7A" font-size="11">📦 22 produtos vinculados</text>
+  <rect x="388" y="426" width="52" height="22" rx="5" fill="#EAF4FB"/>
+  <text x="396" y="441" fill="#2E88C4" font-size="11">Ver ▸</text>
+  <rect x="448" y="426" width="52" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="455" y="441" fill="#5A6A7A" font-size="11">Editar</text>
+
+  <!-- Card 5 -->
+  <rect x="570" y="308" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1"/>
+  <circle cx="608" cy="346" r="22" fill="#EAF4FB"/>
+  <text x="601" y="352" fill="#1B5E88" font-size="14" font-weight="600">TE</text>
+  <text x="642" y="340" fill="#1A1A2E" font-size="13" font-weight="600">TradEpsilon</text>
+  <text x="642" y="356" fill="#5A6A7A" font-size="11">Bebidas e sucos</text>
+  <rect x="642" y="362" width="54" height="16" rx="8" fill="#EBF7F1"/>
+  <text x="648" y="374" fill="#1B7A45" font-size="10">Ativo</text>
+  <line x1="586" y1="386" x2="854" y2="386" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="586" y="404" fill="#5A6A7A" font-size="11">📞 (16) 9 9999-0005</text>
+  <text x="586" y="420" fill="#5A6A7A" font-size="11">✉  epsilon@trade.com</text>
+  <text x="586" y="436" fill="#5A6A7A" font-size="11">📦 9 produtos vinculados</text>
+  <rect x="718" y="426" width="52" height="22" rx="5" fill="#EAF4FB"/>
+  <text x="726" y="441" fill="#2E88C4" font-size="11">Ver ▸</text>
+  <rect x="778" y="426" width="52" height="22" rx="5" fill="#F4F7FA" stroke="#E2E8EF" stroke-width="1"/>
+  <text x="785" y="441" fill="#5A6A7A" font-size="11">Editar</text>
+
+  <!-- Card 6 placeholder -->
+  <rect x="900" y="308" width="300" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8EF" stroke-width="1" stroke-dasharray="5,4"/>
+  <text x="1020" y="390" fill="#5A6A7A" font-size="28" text-anchor="middle">+</text>
+  <text x="1050" y="410" fill="#5A6A7A" font-size="12" text-anchor="middle">Adicionar fornecedor</text>
+
+  <!-- Detail panel -->
+  <rect x="240" y="490" width="960" height="210" rx="8" fill="#FFFFFF" stroke="#2E88C4" stroke-width="1.5"/>
+  <text x="260" y="516" fill="#1B5E88" font-size="13" font-weight="600">Detalhes do Fornecedor — Distribuidora Alfa</text>
+  <line x1="240" y1="526" x2="1200" y2="526" stroke="#E2E8EF" stroke-width="1"/>
+
+  <!-- Two columns -->
+  <text x="260" y="548" fill="#5A6A7A" font-size="11">CNPJ</text>
+  <text x="260" y="564" fill="#1A1A2E" font-size="12">12.345.678/0001-99</text>
+  <text x="500" y="548" fill="#5A6A7A" font-size="11">Endereço</text>
+  <text x="500" y="564" fill="#1A1A2E" font-size="12">Rua Exemplo, 100 — Franca/SP</text>
+  <text x="800" y="548" fill="#5A6A7A" font-size="11">Prazo de entrega</text>
+  <text x="800" y="564" fill="#1A1A2E" font-size="12">3 dias úteis</text>
+
+  <text x="260" y="590" fill="#5A6A7A" font-size="11">Contato</text>
+  <text x="260" y="606" fill="#1A1A2E" font-size="12">João Silva — (16) 9 9999-0001</text>
+  <text x="500" y="590" fill="#5A6A7A" font-size="11">E-mail</text>
+  <text x="500" y="606" fill="#1A1A2E" font-size="12">contato@alfa.com.br</text>
+  <text x="800" y="590" fill="#5A6A7A" font-size="11">Forma de pagamento</text>
+  <text x="800" y="606" fill="#1A1A2E" font-size="12">Boleto 30 dias</text>
+
+  <text x="260" y="632" fill="#5A6A7A" font-size="11">Observações</text>
+  <text x="260" y="648" fill="#5A6A7A" font-size="12">Entrega às terças e quintas. Pedido mínimo R$ 200,00.</text>
+
+  <rect x="1040" y="660" width="80" height="26" rx="6" fill="#2E88C4"/>
+  <text x="1054" y="678" fill="white" font-size="12">Editar</text>
+  <rect x="1130" y="660" width="50" height="26" rx="6" fill="#FDECEA" stroke="#E74C3C" stroke-width="1"/>
+  <text x="1141" y="678" fill="#9B2320" font-size="12">Excluir</text>
+
+  <text x="640" y="780" fill="#5A6A7A" font-size="11" text-anchor="middle">StockEasy · Wireframe · Fornecedores · SENAC Franca</text>
+</svg>
